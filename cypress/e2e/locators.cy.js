@@ -1,0 +1,11 @@
+it('bxhjdjhdg',()=>
+  {
+      cy.get('[maxlength="1"]').eq(0).type('2')
+    cy.get('[maxlength="1"]').eq(1).type('3')
+    cy.get('[maxlength="1"]').eq(2).type('5')
+    cy.get('[maxlength="1"]').eq(3).type('4')
+    cy.get('[maxlength="1"]').eq(4).type('9')
+    cy.get('[maxlength="1"]').eq(5).type('5')
+    cy.get('[type="submit"]').eq(1).click()
+  }
+)
