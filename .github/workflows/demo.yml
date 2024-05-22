@@ -1,13 +1,13 @@
-employees:
-  - name: Martin D'vloper
-    job: Developer
-    skills:
-      - python
-      - perl
-      - pascal
-  - name: Tabitha Bitumen
-    job: Developer
-    skills:
-      - lisp
-      - fortran
-      - erlang
+name: employee-names
+
+on: push
+
+jobs:
+  list-names:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print-names
+        run: |
+          echo "Martin D'vloper"
+          echo "Tabitha Bitumen"
+
