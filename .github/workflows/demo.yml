@@ -1,10 +1,13 @@
-name: cypress
-
-on: push
-
-jobs:
-  my-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: my-step
-        run: echo "Cypress!"
+employees:
+  - name: Martin D'vloper
+    job: Developer
+    skills:
+      - python
+      - perl
+      - pascal
+  - name: Tabitha Bitumen
+    job: Developer
+    skills:
+      - lisp
+      - fortran
+      - erlang
