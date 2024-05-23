@@ -8,6 +8,6 @@ jobs:
     steps:
       - name: print-names
         run: |
-          echo "Martin D'vloper"
-          echo "Tabitha Bitumen"
+          echo "Yashmi"
+          echo "Indu"
 
